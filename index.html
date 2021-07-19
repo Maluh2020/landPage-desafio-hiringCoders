@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio1 - Land Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>La Belle</h1>
+        <div class="container">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li ><a href="#">Home</a></li>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Promoção</a></li>
+                        <li><a href="#">Lançamentos</a></li>
+                        <li><a href="#">Perfumaria</a></li>
+                        <li><a href="#">Maquiagens</a></li>
+                        <li><a href="#">Bolsas e Acessórios</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div id="conteudo">
+            <div>
+                <h2>Black Friday!!</h2>
+                <h3>La Belle - fazendo seus dias mais bonitos e mais felizes</h3>
+            </div>
+            <div class="promocao">
+                <p>Todos os produtos!!!</p>
+                <p>40% OFF !!</p>
+                <p>Perfumes, Maquiagens, Bolsas e acessórios</p>             
+            </div>
+            <div>
+                <img src="black-friday.jpg"/>                         
+            </div> 
+
+        </div>
+    </section>
+
+    <section>
+        <div id="conteudo">
+            <div>
+                Aproveite nossas promoções black friday!!
+            </div>
+            <div class="promocao">
+                <p>Todos os produtos!!!</p>
+                <p>40% OFF !!</p>
+                <p>Perfumes, Maquiagens, Bolsas e acessórios</p>             
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img2" src="perfam.jpg" height="400" width="400"/> 
+                </div>  
+                <div class="col-md-6">
+                    <img class="img3" src="make.jpg" height="400" width="400"/> 
+                   
+                </div>                                   
+            </div>             
+        </div>
+        <div>
+            <h2>Perfumes e maquiagens nacionais e importados a preços incríveis!!!</h2>
+
+        </div>
+    </section>
+    <section>
+        <div id="form"><h2>Preencha o formulário e receba nossas super ofertas!!</h2>
+            
+           <form id="formulario" style="align-items: center;" >
+                  
+                    <label for="nome" >Nome: </label>
+                    <input class="nome" type="text" name="nome" id="nome" placeholder="Digite seu nome.." required><br>
+                    <label for="E-mail">Email: </label>
+                    <input class="email" type="email" name="e-mail" id="email" placeholder="Digite seu melhor email.." required><br>
+                    <label for="tel">Telefone: </label>
+                    <input class="tel" type="tel" name="tel" id="tel" placeholder="Digite seu telefone.."><br>
+                    <button type="submit" value="enviar" onclick="cadastrarLead()">Enviar</button>      
+           </form>
+        </div>
+    </section>
+
+    <footer>
+        <div id="rodape">
+			<h4>Todos os direitos reservados</h4>
+            &copy; Copyright 2021 Desenvolvido por Maria Lucia
+
+		</div>
+    </footer>   
+</body>
+</html>

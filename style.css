@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url(fundo.png);
+
+}
+
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #9e815f;
+  }
+
+  .menu ul,
+  .menu li{
+  
+      list-style: none;
+  }
+  .menu ul{
+      display: flex;
+  }
+  .menu li a{
+      color: white;
+      text-transform: uppercase;
+      font-weight:600;
+      text-decoration: none;
+      display: block;
+      padding-left: 10px;
+      padding-right: 10px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      border-bottom:  3px solid black;
+  }
+  .menu li a:hover,
+  .menu .active a {
+      border-bottom: 3px solid #7a736a;
+      color:#CCC ;
+  }
+
+.menu:hover{
+    background-color: rgb(56, 53, 63);
+}
+
+#conteudo {
+    width: 100%;
+    height: 700px;
+    text-align:  center;
+    font-size: x-large;    
+}
+
+#conteudo img{
+    position: relative;
+    top: 40px;   
+}
+
+.img2 {
+    width: 450px;
+	float: left;
+	margin: auto auto 30px 180px;
+	background: blue
+}
+
+.img3 {
+    width: 450px;
+	float: left;
+	margin: auto auto 20px 22px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#conteudo h1, h3 {    
+    background-color: rgb(89, 109, 117);
+    padding: 15px;   
+}
+
+
+#formulario input {
+    width: 380px;
+    outline: 0;
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid;
+
+     
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.03);
+    width: 70%;
+    max-width: 550px;
+    margin: 32px auto;
+    margin-top: 120px;
+    padding: 32px 64px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(29, 23, 23);;
+    padding-left: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: rgb(89, 109, 117);
+}
+
+#form {
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    height: min-content;
+    
+}
+
+button:hover {
+    background-color: rgb(80, 57, 90);
+}
+
+button {
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+    color: rgb(182, 170, 155);
+    font-size: x-large;
+}
+
+footer 
+    #rodape{
+
+    width: 90%;
+	margin: 10px auto;
+	color: rgb(53, 46, 46); 
+    text-align: right; 
+    font-size: 10px;  
+    }
+
